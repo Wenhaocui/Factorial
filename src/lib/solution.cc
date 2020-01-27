@@ -7,7 +7,7 @@ int Solution::Factorial(int inputs) {
   if (inputs < 0) {
     return -1;
   }
-    if (inputs < 0) {
+    if (inputs == 0) {
     return 1;
   }
   for (int i = 1; i <= inputs; i++) {
